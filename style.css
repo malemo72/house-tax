@@ -1,0 +1,323 @@
+
+/* The style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Add a background color */
+}
+
+/* The style for the h1 element */
+h1 {
+    text-align: center;
+}
+
+/* The style for the form elements */
+form {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black; /* Add a border */
+    padding: 10px; /* Add some padding */
+}
+
+/* The style for the label elements */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* The style for the input elements */
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+/* The style for the select element */
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+/* The style for the button elements */
+button {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+/* The style for the error elements */
+.error {
+    color: red;
+}
+
+/* The style for the result element */
+.result {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* The style for the result h2 elements */
+.result h2 {
+    text-align: center;
+}
+
+/* The style for the result p elements */
+.result p {
+    margin: 5px 0;
+}
+
+/* The style for the result span elements */
+.result span {
+    font-weight: bold;
+}
+
+/* The style for the certificate elements */
+.certificate {
+    background-color: lightgreen;
+}
+
+/* The style for the non-compliance elements*/
+.non-compliance{
+    background-color: pink;
+}
+/* The style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Add a background color */
+}
+
+/* The style for the h1 element */
+h1 {
+    text-align: center;
+}
+
+/* The style for the welcome message element */
+#welcome {
+    animation: slow-motion 10s infinite; /* Add the animation property */
+}
+
+/* The style for the slow motion animation */
+@keyframes slow-motion {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+/* The style for the form elements */
+form {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black; /* Add a border */
+    padding: 10px; /* Add some padding */
+}
+
+/* The style for the label elements */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* The style for the input elements */
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+/* The style for the select element */
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+/* The style for the button elements */
+button {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+/* The style for the error elements */
+.error {
+    color: red;
+}
+
+/* The style for the result element */
+.result {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* The style for the result h2 elements */
+.result h2 {
+    text-align: center;
+}
+
+/* The style for the result p elements */
+.result p {
+    margin: 5px 0;
+}
+
+/* The style for the result span elements */
+.result span {
+    font-weight: bold;
+}
+
+/* The style for the certificate elements */
+.certificate {
+    background-color: lightgreen;
+}
+
+/* The style for the non-compliance elements */
+.non-compliance {
+    background-color: pink;
+}
+
+/* The style for Image slider*/
+* {box-sizing:border-box
+max-width: 50px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+/* Stile for links*/
+
+ /* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+
+
+
+
+/* Style footer*/
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: black;
+  color: white;
+}

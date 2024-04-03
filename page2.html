@@ -1,0 +1,80 @@
+<!-- The second page -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>House Taxation System</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to the external CSS file -->
+   
+  </head>
+  <body>
+    <table bgcolor="White" width="30%">
+      <tr>
+        <td>
+          <a href="index.html">Home</a>
+          </td>
+          <td>
+            <a href="about.html">About</a>
+            </td>
+          <td>
+            <a href="registration.html">Register</a>
+            </td>
+            <td>
+              <a href="page2.html">File Tax</a>
+              </td>
+            <td>
+              <a href="contact.html"> Contact US</a>
+              </td>
+      </tr>
+    </table>
+    <h1>House Taxation System</h1>
+    <P><b>NB:</b> The Minimum amout payable is KSh1000</P>
+    <div id="form-container">
+      <form id="tax-form">
+        <!-- The form for tax payment -->
+        <h2>Record Tax Payment</h2>
+        <label for="id">ID number:</label>
+        <input type="number" id="id" name="id" required />
+        <!-- Add the id attribute -->
+        <label for="tax">Tax amount:</label>
+        <input type="number" id="tax" name="tax" required />
+        <!-- Add the id attribute -->
+        <button type="button" id="pay">Pay</button>
+        <!-- Change the type attribute from "submit" to "button" and add the id attribute -->
+        <p id="tax-error" class="error"></p>
+        <!-- Add the id attribute -->
+      </form>
+      <form id="certificate-form">
+        <!-- The form for certificate generation -->
+        <h2>Generate Tax Certificate</h2>
+        <label for="id">ID number:</label>
+        <input type="number" id="id" name="id" required />
+        <!-- Add the id attribute -->
+        <button type="button" id="generate">Generate</button>
+        <!-- Change the type attribute from "submit" to "button" and add the id attribute -->
+        <p id="certificate-error" class="error"></p>
+        <!-- Add the id attribute -->
+      </form>
+      <form id="history-form">
+        <!-- The form for tax history -->
+        <h2>Get Tax History</h2>
+        <label for="id">ID number:</label>
+        <input type="number" id="id" name="id" required />
+        <!-- Add the id attribute -->
+        <button type="button" id="history">History</button>
+        <!-- Change the type attribute from "submit" to "button" and add the id attribute -->
+        <p id="history-error" class="error"></p>
+        <!-- Add the id attribute -->
+      </form>
+    </div>
+    <div id="result" class="result"></div>
+    <!-- Add the id attribute -->
+    <script src="script.js"></script>
+    <!-- Link to the external Javascript file -->
+    <!--Back button to HomePage-->
+    <button id="backButton">Back</button>
+  </body>
+
+  
+  </footer>
+</html>
